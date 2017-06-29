@@ -29,10 +29,6 @@ namespace LinkedListDojo
                 newData.value = value;
                 newData.next = head;
                 head = newData;
-                /*
-                head = new Node();
-                head.value = value;
-                //head.next = null;*/
             } else {
                 Node newData = new Node();
                 newData.value = value;
